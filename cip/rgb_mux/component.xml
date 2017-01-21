@@ -548,7 +548,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/rgb_mux.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_a76f4592</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_d805ff3c</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -634,8 +634,8 @@
         <xilinx:taxonomy>/VIVADO_HLS_IP</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>rgb_mux</xilinx:displayName>
-      <xilinx:coreRevision>1701201741</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2017-01-21T01:41:41Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>1701201758</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2017-01-21T01:59:06Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2015.4</xilinx:xilinxVersion>
