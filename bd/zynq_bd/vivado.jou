@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Jan 26 12:53:44 2017
+# Process ID: 24187
+# Current directory: /sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd
+# Command line: vivado ../zynq/zynq.xpr
+# Log file: /sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/vivado.log
+# Journal file: /sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ../zynq/zynq.xpr
+write_bd_tcl -force /zynq/zynq_bd.tcl
+ls
+open_bd_design {/sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/zynq_bd.bd}
+open_bd_design {/sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/zynq_bd.bd}
+write_bd_tcl -force zynq_bd.tcl
+write_bd_tcl -force ../zynq/zynq_bd.tcl

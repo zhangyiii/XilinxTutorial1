@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:26 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Jan 26 12:53:44 2017
+# Process ID: 24187
+# Current directory: /sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd
+# Command line: vivado ../zynq/zynq.xpr
+# Log file: /sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/vivado.log
+# Journal file: /sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ../zynq/zynq.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory '/sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq/zynq.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/cip/bft'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/cip/rgb_mux'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/sampa/share/Xilinx/2016.3/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 5924.480 ; gain = 133.906 ; free physical = 26991 ; free virtual = 62539
+write_bd_tcl -force /zynq/zynq_bd.tcl
+ERROR: [BD 5-229] Please open or create a block design first.
+ERROR: [Common 17-39] 'write_bd_tcl' failed due to earlier errors.
+ls
+WARNING: [Common 17-259] Unknown Tcl command 'ls' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+hdl
+hw_handoff
+ip
+ipshared
+ui
+vivado.jou
+vivado.log
+vivado_pid24187.str
+zynq_bd.bd
+zynq_bd.bmm
+zynq_bd.bxml
+zynq_bd.dcp
+zynq_bd_ooc.xdc
+zynq_bd_sim_netlist.v
+zynq_bd_sim_netlist.vhdl
+zynq_bd_stub.v
+zynq_bd_stub.vhdl
+open_bd_design {/sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/zynq_bd.bd}
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:bft:1.0 - bft_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - blk_mem_gen_0
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:hls:rgb_mux:2.3 - rgb_mux_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_50M
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <zynq_bd> from BD file </sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/zynq_bd.bd>
+open_bd_design {/sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/zynq_bd.bd}
+write_bd_tcl -force zynq_bd.tcl
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] test_ip: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] test_ip: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [BD 5-148] Tcl file written out </sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq_bd/zynq_bd.tcl>.
+
+write_bd_tcl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6208.348 ; gain = 184.082 ; free physical = 26736 ; free virtual = 62285
+write_bd_tcl -force ../zynq/zynq_bd.tcl
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] test_ip: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] test_ip: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+INFO: [BD 5-148] Tcl file written out </sampa/home/gyorgym/ug1198-vivado-revision-control/revCtrl/work/zynq/zynq_bd.tcl>.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 26 13:00:10 2017...
